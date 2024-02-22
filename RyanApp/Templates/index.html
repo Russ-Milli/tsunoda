@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Welcome To Django</h1>
+
+<a href="{% url 'My_index' %}">Home</a>
+<a href="{% url 'My_about' %}">About</a>
+<a href="{% url 'My_Contact' %}">Contact</a>
+<a href="{% url 'My_gallery' %}">Gallery</a>
+<a href="{% url 'My_Login' %}">Login</a>
+<a href="{% url 'My_Personal' %}">Personal</a>
+<a href="{% url 'My_Services' %}">Services</a>
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil reiciendis sed voluptatem! Aliquid dolorem eos error est explicabo minima, neque nulla recusandae soluta. Alias, aspernatur ducimus est eveniet maxime vero!</p>
+
+</body>
+</html>

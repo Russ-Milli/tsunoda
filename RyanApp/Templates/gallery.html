@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>This is my gallery</h2>
+<a href="{% url 'My_index' %}">Home</a>
+<a href="{% url 'My_about' %}">About</a>
+<a href="{% url 'My_Contact' %}">Contact</a>
+<a href="{% url 'My_gallery' %}">Gallery</a>
+<a href="{% url 'My_Login' %}">Login</a>
+<a href="{% url 'My_Personal' %}">Personal</a>
+<a href="{% url 'My_Services' %}">Services</a>
+
+
+
+
+
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad at deserunt excepturi, explicabo impedit nesciunt perferendis placeat quae? Culpa dolores, error est hic in minima sequi tempora tempore velit.</span><span>Ab adipisci aperiam at consectetur debitis error et exercitationem in maiores molestiae, natus nihil nisi numquam obcaecati odio omnis optio quia quidem quisquam repellat reprehenderit, sed tempora vitae. Aut, ratione.</span></p>
+
+<img src="{% static 'images/k1.jpeg' %}" alt="">
+<img src="{% static 'images/k2.jpeg' %}" alt="">
+<img src="{% static 'images/k3.jpeg' %}" alt="">
+<img src="{% static 'images/k4.jpeg' %}" alt="">
+<img src="{% static 'images/k5.jpeg' %}" alt="">
+
+
+</body>
+</html>
